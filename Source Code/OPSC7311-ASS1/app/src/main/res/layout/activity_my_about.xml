@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_my_about"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="adrianbeukes.opsc7311_ass1.MyAbout">
+
+    <TextView
+        android:text="How To Play:
+       \n     The Game is based on the classic
+        \n     Slot machine games, with a friendly
+        \n     twist on the icons, bringing with them
+        \n     a collection of classic cars.
+\n
+        \n  Playing is pretty simple
+        \n  1: You just press the SPIN button to
+          \n     let the slots start, based on the results,
+          \n     you will either win or lose.
+        \n  2: You win if you get a match of 2 images
+          \n     else if none match, you lose.
+        \n  3:If 3 pictures match, you get double
+          \n     points.
+\n
+\n
+ \nAbout Us:
+        \n   version : 0.9
+        \n   creator : Adrian Beukes
+        \n   stud nr : 15002426"
+        android:background="#d3d3d3"
+        android:layout_width="275dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:id="@+id/btnBack"
+        android:fontFamily="serif-monospace"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        android:textAlignment="center"
+        android:onClick="btnBackActivity"/>
+</RelativeLayout>
